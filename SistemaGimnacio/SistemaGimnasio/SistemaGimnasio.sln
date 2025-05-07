@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaGimnasio", "SistemaGimnasio.csproj", "{DF9FFD7A-27A9-49AA-A409-739072A1BD79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaGimnacio.Test", "..\SistemaGimnacio.Test\SistemaGimnacio.Test.csproj", "{29DC3ADF-0784-4207-87A6-D442AD08A498}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{DF9FFD7A-27A9-49AA-A409-739072A1BD79}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF9FFD7A-27A9-49AA-A409-739072A1BD79}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF9FFD7A-27A9-49AA-A409-739072A1BD79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29DC3ADF-0784-4207-87A6-D442AD08A498}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29DC3ADF-0784-4207-87A6-D442AD08A498}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29DC3ADF-0784-4207-87A6-D442AD08A498}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29DC3ADF-0784-4207-87A6-D442AD08A498}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

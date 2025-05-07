@@ -14,6 +14,7 @@ namespace SistemaGimnasio.Modelos
         {
             Nombre = nombre;
             Duracion = duracion;
+            ejercicios = new List<Ejercicio>();
         }
 
         //Metodos

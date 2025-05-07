@@ -1,4 +1,6 @@
-﻿namespace SistemaGimnasio.Modelos
+﻿using System.Collections.Generic;
+
+namespace SistemaGimnasio.Modelos
 {
     public class Entrenador
     {
@@ -13,6 +15,7 @@
         {
             Nombre = nombre;
             Especialidad = especialidad;
+            usuariosAsignador = new List<Usuario>();
 
         }
 

@@ -7,7 +7,7 @@ namespace SistemaGimnasio.Modelos
         public string Nombre { get; set; }
         public int Edad { get; set; }
         public string Objetivo { get; set; }
-        public Rutina RutinaAsigada { get; set; }
+        public Rutina RutinaAsignada { get; set; }
 
         //constructor
         public Usuario(string nombre, int edad, string objetivo)
